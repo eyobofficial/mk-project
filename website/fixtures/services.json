@@ -1,0 +1,34 @@
+[
+    {
+        "model": "website.service",
+        "pk": 1,
+        "fields": {
+            "title": "Sport Equipments",
+            "description": "We import quality sport wears, gadgets and accessories. We are agents in Ethiopia for select, active sports wear & health track and field sport brands."
+        }
+    },
+    {
+        "model": "website.service",
+        "pk": 2,
+        "fields": {
+            "title": "Cars & Spare Parts",
+            "description": "We import wide range of automobiles, pickup trucks, buses and heavy trucks. We also import various spare parts and car decor accessories."
+        }
+    },
+    {
+        "model": "website.service",
+        "pk": 3,
+        "fields": {
+            "title": "Office Supplies",
+            "description": "We import various stationery items, office supplies and accessories according to your business needs. "
+        }
+    },
+    {
+        "model": "website.service",
+        "pk": 4,
+        "fields": {
+            "title": "Chemicals",
+            "description": "We also import tested and verified industrial and peteroleum chemicals."
+        }
+    }
+]

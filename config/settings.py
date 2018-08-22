@@ -38,7 +38,7 @@ INSTALLED_APPS = [
 
     # Project Apps
     'core.apps.CoreConfig',
-    'comingsoon.apps.ComingsoonConfig',
+    'website.apps.WebsiteConfig',
 ]
 
 MIDDLEWARE = [
@@ -130,3 +130,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Custom Auth User Model
 AUTH_USER_MODEL = 'core.CustomUser'
+
+LOGOUT_REDIRECT_URL = '/'

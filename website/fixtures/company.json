@@ -1,0 +1,23 @@
+[
+    {
+        "model": "website.company",
+        "pk": 1,
+        "fields": {
+            "title": "Michael Tesfaye",
+            "subtitle": "Product Importer",
+            "motto": "We import amazing products",
+            "short_description": "We are now agents in Ethiopia for select, active sports wear & health track and field sport brands.",
+            "business_description": "MICHAEL TESFAYE Importer offers a broad line of top quality products. We began our journey in 2008.",
+            "about_description": "We recognize the value and power of tapping into the full spectrum of ideas and abilities that people possess. Doing such things has been a strong part of MICHAEL TESFAYE Importer past and present success. We are competing in a global marketplace, and we know that our growth will depend on an increasingly diverse and global workforce. Our strength comes from the combination of what we have in common, like our shared values, vision and mission, as well as what makes us different, like experience and perspectives.",
+            "service_description": "Service description goes here",
+            "product_description": "Product description goes here",
+            "contact_description": "Feel free to contact us at anytime.",
+            "address": "Selam City Mall, Infront of ODA Building, Cameron Street - Bole Area, 9th Floor Room 906",
+            "phone1": "+251 911 46 91 90",
+            "phone2": "+251 911 60 48 02",
+            "fax": "+251 116 63 63 80",
+            "pobox": "46225",
+            "email": "ronimikt@gmail.com"
+        }
+    }
+]
