@@ -13,6 +13,46 @@ admin.site.index_title = 'Welcome To Michael Tesfaye Website Administration'
 @admin.register(Company)
 class CompanyAdmin(admin.ModelAdmin):
     list_display = ['title', 'subtitle', 'modified']
+    fieldsets = (
+        ('Company Details', {
+            'fields': ('title', 'subtitle', 'motto', 'short_description')
+        }),
+        ('About Us Section', {
+            'fields': ('business_description', 'about_description'),
+        }),
+        ('Service Section', {
+            'fields': ('service_description', ),
+        }),
+        ('Product Section', {
+            'fields': ('product_description', ),
+        }),
+        ('Contact Us Section', {
+            'fields': (
+                'contact_description',
+                'address',
+                'phone1',
+                'phone2',
+                'fax',
+                'pobox',
+                'email'
+            ),
+        }),
+        ('Social Media Section', {
+            'fields': (
+                'facebook',
+                'twitter',
+                'linkedin',
+                'instagram',
+            ),
+        }),
+        ('Pictures', {
+            'fields': (
+                'logo',
+                'fevicon',
+                'wallpaper',
+            ),
+        }),
+    )
 
 
 @admin.register(Service)

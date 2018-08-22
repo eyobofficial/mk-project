@@ -13,7 +13,7 @@ class Company(BaseModel):
     service_description = models.TextField('short service description')
     product_description = models.TextField('short product description')
     contact_description = models.TextField('short contact description')
-    address = models.TextField()
+    address = models.TextField(help_text='Use comman to separate address')
     phone1 = models.CharField('phone line 1', max_length=30)
     phone2 = models.CharField('phone line 2', max_length=30, blank=True)
     fax = models.CharField('FAX', max_length=30, blank=True)
